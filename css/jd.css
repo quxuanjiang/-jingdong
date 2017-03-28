@@ -1,0 +1,503 @@
+@import url("reset.css");
+.warp {
+  min-width: 300px;
+  max-width: 640px;
+  margin: 0 auto;
+}
+.header {
+  background: #c91523;
+  width: 100%;
+  height: 38px;
+  margin: 0 auto;
+}
+header {
+  width: 100%;
+  margin: 0 auto;
+}
+header form {
+  margin-left: 70px;
+  padding-right: 50px;
+  position: relative;
+}
+header form input {
+  width: 100%;
+  height: 30px;
+  margin-top: 5px;
+  border-radius: 20px;
+  padding-left: 25px;
+  padding-right: 10px;
+}
+header form .login {
+  margin-left: -20px;
+}
+header form .login a {
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  padding: 0 5px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: white;
+}
+header .header a {
+  display: inline-block;
+}
+header .logo {
+  width: 55px;
+  height: 20px;
+  background-position: 0 -110px;
+  position: absolute;
+  top: 10px;
+  left: 6px;
+}
+header .search {
+  width: 19px;
+  height: 19px;
+  background-position: -60px -110px;
+  position: absolute;
+  left: 6px;
+  top: 11px;
+  cursor: pointer;
+}
+.active {
+  background: #fff;
+}
+.a {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.a ul:first-child {
+  width: 400%;
+}
+.a ul:first-child li {
+  width: 25%;
+  float: left;
+}
+.a ul:first-child li img {
+  width: 100%;
+}
+.a ul:last-child {
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  transform: translate(-50%);
+}
+.a ul:last-child li {
+  width: 8px;
+  height: 8px;
+  float: left;
+  border: 1px solid #fff;
+  margin: 0px 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.a ul:last-child .active {
+  background: #fff;
+}
+.nav {
+  padding: 10px;
+  background: url("../img/back.png");
+  height: 200px;
+}
+.nav a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.nav a img {
+  width: 58px;
+  height: 58px;
+  margin: 0 auto;
+}
+.nav a span {
+  display: block;
+  font-size: 16px;
+}
+section {
+  background-image: url("../img/back.png");
+  padding-bottom: 5px;
+}
+section .main2 {
+  margin: 0 8px;
+  height: 30px;
+  font-size: 12px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  background-color: #fff;
+  padding: 0 5px;
+  position: relative;
+}
+section .main2 a:first-child {
+  display: block;
+  width: 73px;
+  height: 16px;
+  position: absolute;
+  top: 7px;
+  left: 8px;
+}
+section .main2 a:first-child img {
+  width: 73px;
+  height: 16px;
+}
+section .main2 div {
+  padding: 0 42px 0 75px;
+  height: 30px;
+  overflow: hidden;
+}
+section .main2 div ul li {
+  height: 16px;
+  line-height: 16px;
+  margin: 7px 0;
+  font-size: 12px;
+}
+section .main2 div ul li span {
+  padding: 0 5px;
+  color: red;
+}
+section .main2 a:last-child {
+  display: block;
+  padding: 0 3px;
+  position: absolute;
+  right: 8px;
+  top: 7px;
+  border-left: 1px solid #ccc;
+}
+main .main1 .left {
+  width: 64%;
+  float: left;
+}
+main .main1 .left a {
+  display: block;
+}
+main .main1 .left a img {
+  float: left;
+  display: inline-block;
+  width: 69px;
+  height: 27px;
+  margin-top: 4px;
+  margin-right: 6px;
+}
+main .main1 .left a strong {
+  float: left;
+  font-size: 12px;
+  color: #232326;
+  font-weight: bold;
+  display: inline-block;
+  height: 27px;
+  line-height: 27px;
+  margin-top: 4px;
+  margin-right: 5px;
+}
+main .main1 .left a .time {
+  float: left;
+  display: inline-block;
+  height: 27px;
+  line-height: 27px;
+  margin-top: 4px;
+}
+main .main1 .left a .time .shi {
+  float: left;
+  display: inline-block;
+  border: 1px solid #ccc;
+  width: 19px;
+  height: 17px;
+  line-height: 17px;
+  text-align: center;
+  margin-top: 4px;
+}
+main .main1 .left a .time .dian {
+  float: left;
+  display: inline-block;
+}
+main .main1 .right {
+  width: 36%;
+  float: right;
+}
+main .main1 .right a {
+  width: 100%;
+  display: inline-block;
+  text-align: right;
+  color: #f23030;
+  height: 27px;
+  line-height: 27px;
+  margin-top: 4px;
+  padding-right: 5px;
+}
+main .main1 .right a i {
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  background: url("../img/ff.png") no-repeat;
+  background-size: cover;
+}
+main .main1 .top {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+main .main1 .top ul {
+  width: 100%;
+}
+main .main1 .top ul li {
+  width: 25%;
+  float: left;
+  display: inline-block;
+  padding: 0 10px;
+}
+main .main1 .top ul li img {
+  width: 100%;
+  height: auto;
+}
+main .main1 .top ul li span {
+  display: block;
+  text-align: center;
+}
+main .main1 .top ul li .a {
+  margin-top: 11px;
+  color: #f23030;
+  font-size: 16px;
+  line-height: 16px;
+  height: 16px;
+  font-weight: bold;
+}
+main .main1 .top ul li .b {
+  color: #686868;
+  font-size: 12px;
+  line-height: 12px;
+  margin: 4px 0 11px 0;
+  padding: 0 2px;
+  text-decoration: Line-through;
+}
+main .main1 .bottom {
+  width: 100%;
+  height: 100%;
+  padding: 7px 0 5px 0;
+}
+main .main1 .bottom .box1 {
+  width: 50%;
+  float: left;
+}
+main .main1 .bottom .box1 a {
+  display: block;
+  width: 100%;
+}
+main .main1 .bottom .box1 a .text {
+  width: 55%;
+  float: left;
+}
+main .main1 .bottom .box1 a .text strong {
+  font-size: 28px;
+  line-height: 34px;
+  color: #181818;
+  font-weight: 600;
+}
+main .main1 .bottom .box1 a .text p {
+  height: 30px;
+  font-size: 22px;
+  line-height: 30px;
+  margin-bottom: 2px;
+  color: #686868;
+}
+main .main1 .bottom .box1 a .img {
+  width: 45%;
+  float: left;
+}
+main .main1 .bottom .box1 a .img img {
+  width: 100%;
+  height: 100%;
+}
+main .main2 .img {
+  width: 100%;
+  position: relative;
+}
+main .main2 .img .img1 {
+  width: 100%;
+}
+main .main2 .img .img2 {
+  width: 20%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+main .main2 .top {
+  width: 100%;
+  height: 100%;
+  padding: 7px 0 5px 0;
+}
+main .main2 .top .box1 {
+  width: 50%;
+  float: left;
+}
+main .main2 .top .box1 a {
+  display: block;
+  width: 100%;
+}
+main .main2 .top .box1 a .text {
+  width: 55%;
+  float: left;
+}
+main .main2 .top .box1 a .text strong {
+  font-size: 28px;
+  line-height: 34px;
+  color: #181818;
+  font-weight: 600;
+}
+main .main2 .top .box1 a .text p {
+  height: 30px;
+  font-size: 22px;
+  line-height: 30px;
+  margin-bottom: 2px;
+  color: #686868;
+}
+main .main2 .top .box1 a .img {
+  width: 45%;
+  float: left;
+}
+main .main2 .top .box1 a .img img {
+  width: 100%;
+  height: 100%;
+}
+main .main2 .bottom {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+main .main2 .bottom ul {
+  width: 100%;
+}
+main .main2 .bottom ul li {
+  width: 25%;
+  float: left;
+  display: inline-block;
+  padding: 0 10px;
+}
+main .main2 .bottom ul li strong {
+  font-size: 28px;
+  line-height: 34px;
+  color: #181818;
+  font-weight: 600;
+}
+main .main2 .bottom ul li p {
+  height: 30px;
+  font-size: 22px;
+  line-height: 30px;
+  margin-bottom: 2px;
+  color: #686868;
+}
+main .main2 .bottom ul li img {
+  width: 100%;
+  height: auto;
+}
+@media screen and (max-width: 540px) {
+  .nav a img {
+    height: 58px;
+    width: 58px;
+  }
+  .nav a span {
+    font-size: 16px;
+  }
+  main .main1 .bottom .box1 a .text strong {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  main .main1 .bottom .box1 a .text p {
+    height: 30px;
+    font-size: 22px;
+    line-height: 30px;
+  }
+  main .main2 .top .box1 a .text strong {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  main .main2 .top .box1 a .text p {
+    height: 30px;
+    font-size: 22px;
+    line-height: 30px;
+  }
+  main .main2 .bottom ul li strong {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  main .main2 .bottom ul li p {
+    height: 30px;
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .nav a img {
+    height: 38px;
+    width: 38px;
+  }
+  .nav a span {
+    font-size: 14px;
+  }
+  main .main1 .bottom .box1 a .text strong {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  main .main1 .bottom .box1 a .text p {
+    height: 28px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  main .main2 .top .box1 a .text strong {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  main .main2 .top .box1 a .text p {
+    height: 28px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  main .main2 .bottom ul li strong {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  main .main2 .bottom ul li p {
+    height: 28px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .nav a img {
+    height: 34px;
+    width: 34px;
+  }
+  .nav a span {
+    font-size: 12px;
+  }
+  main .main1 .bottom .box1 a .text strong {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  main .main1 .bottom .box1 a .text p {
+    height: 15px;
+    font-size: 10px;
+    line-height: 15px;
+  }
+  main .main2 .top .box1 a .text strong {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  main .main2 .top .box1 a .text p {
+    height: 15px;
+    font-size: 10px;
+    line-height: 15px;
+  }
+  main .main2 .bottom ul li strong {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  main .main2 .bottom ul li p {
+    height: 15px;
+    font-size: 10px;
+    line-height: 15px;
+  }
+}

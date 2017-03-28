@@ -1,0 +1,73 @@
+@import url("reset.css");
+.header .a{
+	min-width: 100%;
+	max-width: 100%;
+	
+}
+.header .a{
+	background: #c91523;
+	height: 100%;
+	padding-top: 12px;
+	padding-bottom:30px;
+	text-align: center;
+	}
+.header .a form input{
+			width: 70%;
+			padding-left: 70px;
+			height: 35px;
+			border: none;
+			border-radius: 20px;
+		
+	}
+	.aa{
+		
+		font-size: 16px;
+		width: 38%;
+		padding: 6px;
+		border-radius: 5px;
+		background: white;
+	}
+
+body,html{
+	width: 100%;
+	height: 100%;
+}
+.main{
+	height: 100%;
+	overflow: hidden;
+	/*padding-top: 40px;*/
+}
+.main .left{
+	height: 100%;
+	overflow: auto;
+	float: left;
+}
+.main .left ul li{
+			width: 85px;
+			height: 45px;
+			text-align: center;
+			line-height: 45px;
+			border-bottom: 1px solid #ccc;
+			border-right: 1px solid #ccc;
+			font-size: 15px;
+	
+}
+.main .right{
+	height: 100%;
+	padding: 10px;
+	overflow: auto;
+	}
+	.right .a1 img{
+		width: 100%;
+	}
+.right .a2 ul li{
+	width: 32%;
+	float: left;
+	text-align: center;
+	padding-top: 10px;
+}
+.a2 ul li img{
+	width: 160px;
+	height: 200px;
+	margin: 0 auto;
+}
